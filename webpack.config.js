@@ -5,8 +5,13 @@ module.exports = {
 		rules: [
 			{
 				test: /\.svg$/,
+				issuer: {
+					// Only use this loader if issued from an HTML file.
+					test: /\.html$/,
+				},
 				loader: 'raw-loader',
 			},
+			// Can add another rule set here for use within '.js' files
 		],
 	},
 	plugins: [
