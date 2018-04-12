@@ -1,6 +1,6 @@
 # Webpack SVG Example
 
-Simple demonstration of how to inline SVGs into HTML using WebpackHtmlPlugin and `raw-loader`.
+Simple demonstration of how to inline SVGs into HTML using HtmlWebpackPlugin and `raw-loader`.
 
 ```
 nvm install
