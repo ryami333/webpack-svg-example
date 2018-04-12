@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "git@github.com:ryami333/webpack-svg-example.git",
   "author": "Mitch Ryan <mitch.ryan@outlook.co.nz>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.12.0",
+    "raw-loader": "^0.5.1",
+    "svgr": "^1.9.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
 }
